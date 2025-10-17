@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Leaflet layering fix */
+.leaflet-pane, .leaflet-top, .leaflet-bottom { z-index: 0 !important; }
